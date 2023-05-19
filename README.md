@@ -1,12 +1,19 @@
 # docker-jupyter
 
-- generate docker image
-``` docker build . -t docker-jupyter ```
+- generate docker image\
+
+   ``` 
+    docker build . -t docker-jupyter 
+   ```
 
 - start docker jupyter
-``` ./jupyter ```
+   ```
+    ./jupyter 
+   ```
 
 - open in browser
 
-``` http://localhost:8188 ```
+   ```
+    http://localhost:8188
+   ```
 
