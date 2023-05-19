@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker run --rm --name jupyter --hostname jupyter -p 8188:8188 -v `pwd`/study:/root/study -ti  docker-jupyter:latest
+
