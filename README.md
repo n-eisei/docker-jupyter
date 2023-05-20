@@ -8,7 +8,7 @@
 
 - start docker jupyter
    ```
-   docker run --rm -ti --name jupyter -p 8188:8188 -v `pwd`/study:/root/study -ti  docker-jupyter:latest 
+   docker run --rm -ti --name jupyter -p 8188:8188 -v `pwd`/study:/root/study sunylab/jupyter:1.0 
    ```
 
 - open in browser
